@@ -1,9 +1,12 @@
 <?php
+require_once 'ObjectTrait.php';
 class CarKeys
 {
-    public function ICarryIt(): void
+    use ObjectTrait;
+
+    public function Show(): void
     {
-        echo "LLevo las llaves del coche" . PHP_EOL;
+        echo $this->ICarryIt("las llaves del coche");
     }
 }
 ?>

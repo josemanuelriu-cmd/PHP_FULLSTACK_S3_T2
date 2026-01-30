@@ -32,7 +32,7 @@ class Person
             $mensaje .= $this->houseKeys->ICarryIt();
         }
         if ($this->carKeys) {
-            $mensaje .= $this->carKeys->ICarryIt();
+            $mensaje .= $this->carKeys->Show();
         }
         if ($this->transportCard) {
             $mensaje .= $this->transportCard->ICarryIt();
