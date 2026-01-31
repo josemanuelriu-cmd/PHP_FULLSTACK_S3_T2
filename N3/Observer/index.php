@@ -24,8 +24,3 @@ echo $moodle1->addTask($task2);
 echo "\nTareas del moodle 2:\n";
 $moodle2->addMentor($mentor2);
 echo $moodle2->addTask($task3);
-
-/*
-$moodle->notifyMentors($task1);
-$moodle->notifyMentors($task2);
-*/
